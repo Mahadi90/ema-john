@@ -28,7 +28,7 @@ const Shop = () => {
                 ></Product>)
                }
             </div>
-            <div className="cart w-[25%] bg-orange-300 h-[100vh] px-8">
+            <div className="cart w-[25%] bg-orange-300 h-[100vh] px-8 sticky top-0">
                 <Cart cart={cart}></Cart>
             </div>
         </div>
