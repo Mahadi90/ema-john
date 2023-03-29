@@ -16,11 +16,17 @@ const Cart = (props) => {
         <div>
             <h2 className='text-center text-2xl mt-4 font-bold'>Order Summary</h2>
                 <p className='text-lg mt-4'>Selected Items: {cart.length}</p>
+
                 <p className='text-lg mt-4'>Total price: ${totalPrice}</p>
+
                 <p className='text-lg mt-4'>Total Shipping: ${totalShipping}</p>
+
                 <p className='text-lg mt-4'>Tax: ${tax}</p>
+
                 <h3 className='text-lg mt-4 font-bold text-2xl'>Grand Total: ${grandTotal}</h3>
+
                 <button className='btn bg-red-600 border-0 mt-4 w-full mx-4 hover:bg-red-800'>Clear Cart</button> <br />
+                
                 <button className='btn bg-green-600 border-0 mt-4 w-full mx-4 hover:bg-green-800'>Review Order</button>
         </div>
     );
